@@ -3,7 +3,7 @@
 
 A super easy way to get started with [Magic Cards](https://github.com/maddox/magic-cards).
 
-[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/<mycommunity>)
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/magic-cards)
 
 
 ## Magic Cards
