@@ -72,8 +72,9 @@ Launch the containers with:
 
     script/start
 
-This will launch everything and keep it up. Browse the `script` dir to see other
-things you can use.
+This will launch everything and keep it up. It may take a minute before everything is available. It's just a Raspberry Pi after all.
+
+Browse the `script` dir to see other things you can use.
 
 ## Access Services
 
