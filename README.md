@@ -1,7 +1,7 @@
 
 ![](https://user-images.githubusercontent.com/260/38534678-61701e56-3c4d-11e8-95d5-163c095e9ad0.png)
 
-A super easy way to get started with [Magic Cards](https://github.com/maddox/magic-cards)
+A super easy way to get started with [Magic Cards](https://github.com/maddox/magic-cards).
 
 
 ## Magic Cards
