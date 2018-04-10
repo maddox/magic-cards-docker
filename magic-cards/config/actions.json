@@ -1,0 +1,20 @@
+{
+  "Sonos": {
+    "type": "sonos",
+    "host": "127.0.0.1",
+    "port": "5005",
+    "room": "Kitchen",
+    "playlist": {
+      "shuffle": "on",
+      "repeat": "all"
+    },
+    "album": {
+      "shuffle": "off",
+      "repeat": "all"
+    },
+    "song": {
+      "shuffle": "off",
+      "repeat": "all"
+    }
+  }
+}

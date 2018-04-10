@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+PWD=`pwd` docker-compose up -d

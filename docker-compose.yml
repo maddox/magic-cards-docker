@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  magic-cards:
+    image: jonmaddox/magic-cards:latest
+    container_name: magic-cards
+    network_mode: host
+    ports:
+      - "5000:5000"
+    restart: always
+    volumes:
+      - $PWD/magic-crds/config:/usr/src/app/config
+    devices:
+      - "/dev/input/event0:/dev/input/event0"
+
+  sonos-http-api:
+    image: jonmaddox/rpi-docker-node-sonos-http-api:latest
+    container_name: sonos-http-api
+    network_mode: host
+    ports:
+      - "5005:5005"
+    restart: always
+    volumes:
+      - $PWD/sonos-http-api/settings:/app/settings
+      - $PWD/sonos-http-api/clips:/app/clips
+      - $PWD/sonos-http-api/cache:/app/cache
+      - $PWD/sonos-http-api/presets:/app/presets

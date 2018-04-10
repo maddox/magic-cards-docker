@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+echo "Attemping to upgrade Magic Cards..."
+docker pull jonmaddox/magic-cards:latest
+echo "Attemping to upgrade Sonos HTTP API..."
+docker pull jonmaddox/rpi-docker-node-sonos-http-api:latest
+
+script/start
