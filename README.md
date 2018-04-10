@@ -3,6 +3,8 @@
 
 A super easy way to get started with [Magic Cards](https://github.com/maddox/magic-cards).
 
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/<mycommunity>)
+
 
 ## Magic Cards
 
@@ -82,3 +84,10 @@ You can access the services on these ports:
 
 1. Magic Cards: port 5000
 1. Node Sonos HTTP API: port 5005
+
+
+## Troubleshooting
+
+If you're having troubles, you can get help from the community on Spectrum.
+
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/magic-cards)
