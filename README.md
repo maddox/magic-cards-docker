@@ -12,7 +12,41 @@ Clone down this repo, edit your configurations, and you'll be up and running wit
 
 ## Getting Started
 
-Read more about Magic Cards in its [documentation](https://github.com/maddox/magic-cards/tree/master/docs). This is expected to run on a Raspberry Pi. You should have git and docker already installed.
+Read more about Magic Cards in its [documentation](https://github.com/maddox/magic-cards/tree/master/docs).
+
+### Prerequisites
+
+This is expected to run on a Raspberry Pi. You should have git and docker already installed. You will also need to install `docker-compose` to get everything running easily.
+
+#### Install Docker
+
+Installing Docker is as easy as a couple of commands:
+
+```bash
+curl -sSL https://get.docker.com/ | sh
+```
+
+Once it's installed, run this command so your `pi` user can use Docker.
+
+```bash
+sudo usermod -G docker pi
+```
+
+Log out of your Pi and back in so your user has permissions to use Docker.
+
+#### Install docker-compose
+
+You'll need to use the `pip3` python package manager to install `docker-compose` to ensure you get the right version for your Raspberry Pi.
+
+```bash
+sudo pip3 install docker-compose
+```
+
+Let it go through it's paces and you should be ready to go.
+
+
+## Installing
+Installing is as easy as:
 
 1. Clone down this repo
 1. Edit the appropriate config files
